@@ -9,6 +9,7 @@ public class GameTest {
         String player = "paper";
         String computer = "rock";
         String winner = Game.compareChoices(computer, player);
-        // assertSame("Player wins!\npaper beats rock" , winner);
+        System.out.println(winner);
+        assertEquals("Player wins!\npaper beats rock" , winner);
     }
 }

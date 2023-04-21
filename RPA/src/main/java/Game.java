@@ -98,6 +98,8 @@ public class Game {
                 setMoves();
 
                 System.out.println("\n" + compareChoices(computer, player));
+                //add a fucntion that checks who the overall winner is
+                //add a database
                 System.out.println(count);                    
                 
             }
